@@ -3,8 +3,7 @@ name: Publish Package to npmjs
 on:
   push:
     branches: [ main ] #指定哪个分支发生修改触发部署
-    paths: #是用来指定哪个文件发生修改以触发部署
-      - 'package.json'  
+
 jobs:
   build:
     runs-on: ubuntu-latest
